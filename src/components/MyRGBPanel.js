@@ -23,7 +23,7 @@ function MyRGBPanel() {
   };
 
   const headingStyle = {
-    color: rgb(${r}, ${g}, ${b}),
+    color: `rgb(${r}, ${g}, ${b})`,
   };
 
   return (
@@ -34,7 +34,7 @@ function MyRGBPanel() {
           style={{
             width: "250px",
             height: "100px",
-            backgroundColor: rgb(${r}, ${g}, ${b}),
+            backgroundColor: `rgb(${r}, ${g}, ${b})`,
           }}
         />
         <span>R: </span>
