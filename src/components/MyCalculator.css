@@ -37,12 +37,12 @@
 }
 
 .btn-action {
-    background-color: brown;
+    background-color: rgb(251, 255, 0);
     color: bisque;
 }
 
 .btn-operator {
-    background-color: coral;
+    background-color: orange;
 }
 
 .btn-0 {
