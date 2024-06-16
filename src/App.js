@@ -1,20 +1,21 @@
-import "./App.css";
-import MyRGBPanel from "./components/rgb-panel/MyRGBPanel"
-import MySlider from "./components/rgb-panel/MySlider";
-import MyCalculator from "./components/calculator/MyCalculator";
-import TicTacToe from "./components/tic-tac-toe/TicTacToe";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>MySlider</h1>
-      <MySlider />
-      <h1>MyRGBPanel</h1>
-      <MyRGBPanel />
-      <h1>MyCalculator</h1>
-      <MyCalculator />
-      <h1>Tic-Tac-Toe Game</h1>
-      <TicTacToe />
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hello React! 2024.5.1</h1>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
